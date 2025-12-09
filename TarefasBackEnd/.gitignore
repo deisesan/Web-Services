@@ -1,0 +1,32 @@
+# Build results
+bin/
+obj/
+
+# Rider / VSCode / Visual Studio
+.vs/
+.idea/
+*.user
+*.suo
+
+# Logs
+*.log
+
+# Configs sensíveis
+TarefasBackEnd.sln
+launchsettings.json
+appsettings.json
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# Sistema
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# Dotnet artifacts
+*.pidb
+*.svclog
+*.dbmdl
+
+# Others
+*.DS_Store
