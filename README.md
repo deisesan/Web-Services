@@ -11,6 +11,7 @@
 ## Descrição Geral
 
 Esta atividade prática tem como objetivo aplicar os conceitos de comunicação distribuída, por meio do desenvolvimento de aplicações utilizando Web Services, podendo ser REST ou SOAP, conforme instruções da disciplina.
+
 Cada integrante realizou um curso individual sobre o tema e desenvolveu uma implementação prática correspondente.
 
 ## Cursos escolhidos 
