@@ -9,7 +9,7 @@ namespace TarefasBackEnd.Models
         public Guid UsuarioId { get; set; }
         
         [Required]
-        public required string Nome { get; set; }
+        public string Nome { get; set; }
         public bool Concluida { get; set; }
     }
 }
