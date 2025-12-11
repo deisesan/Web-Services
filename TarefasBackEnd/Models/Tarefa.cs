@@ -5,7 +5,6 @@ namespace TarefasBackEnd.Models
     public class Tarefa
     {
         public Guid Id { get; set; }
-        
         public Guid UsuarioId { get; set; }
         
         [Required]

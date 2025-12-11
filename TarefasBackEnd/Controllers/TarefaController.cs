@@ -38,7 +38,7 @@ namespace TarefasBackEnd.Controllers
         }
 
         [HttpDelete("{id}")]
-        public IActionResult Delete(string id, [FromServices] ITarefaRepository repository)
+        public async Task<IActionResult> Delete(string id, [FromServices] ITarefaRepository repository)
         {
             repository.Delete(new Guid(id));
 
