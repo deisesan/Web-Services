@@ -4,7 +4,7 @@ namespace TarefasBackEnd.Repositories
 {
     public interface ITarefaRepository
     {
-        List<Tarefa> Read();
+        List<Tarefa> Read(Guid id);
         void Create(Tarefa tarefa);
         Task Delete(Guid id);
         void Update(Guid id, Tarefa tarefa);
@@ -35,9 +35,9 @@ namespace TarefasBackEnd.Repositories
             await _context.SaveChangesAsync();
         }
         
-        public List<Tarefa> Read()
+        public List<Tarefa> Read(Guid id)
         {
-            return _context.Tarefas.ToList();
+            return _context.Tarefas.Where(tarefa => tarefa.UsuarioId == id).ToList();
         }
 
         public void Update(Guid id, Tarefa tarefa)
