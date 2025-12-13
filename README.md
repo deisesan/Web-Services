@@ -2,7 +2,7 @@
 
 **Disciplina:** Sistemas Distribuídos  
 
-**Integrantes da dupla:** Ana Luiza, Anne Karolinne e Deise Santana  
+**Integrantes da dupla:** Anne Karolinne e Deise Santana  
 
 **Data de entrega:** 12/12/2025
 
@@ -16,11 +16,9 @@ Cada integrante realizou um curso individual sobre o tema e desenvolveu uma impl
 
 ## Cursos escolhidos 
 
-   1.1. Curso - Ana Luiza - [Comece a aprender Spring Boot agora de forma prática!](https://www.udemy.com/course/comece-a-aprender-spring-boot-agora-de-forma-pratica/)
+   1.1. Curso - Anne Karolinne - [Curso escolhido](Link do curso)
 
-   1.2. Curso - Anne Karolinne - [Curso escolhido](Link do curso)
-
-   1.3. Curso - Deise Santana - [Criando APIs REST com .NET Core, EF, Autenticação e Heroku](https://www.udemy.com/course/criando-apis-rest-com-net-core-ef-autenticacao-e-heroku/)
+   1.2. Curso - Deise Santana - [Criando APIs REST com .NET Core, EF, Autenticação e Heroku](https://www.udemy.com/course/criando-apis-rest-com-net-core-ef-autenticacao-e-heroku/)
    
 ---
 
