@@ -25,7 +25,7 @@ namespace TarefasBackEnd.Repositories
 
         public Usuario Read(string email, string senha)
         {
-            return _context.Usuarios.SingleOrDefault(
+            return _context.Usuarios.FirstOrDefault(
                 usuario => usuario.Email == email && usuario.Senha == senha
             );
         }

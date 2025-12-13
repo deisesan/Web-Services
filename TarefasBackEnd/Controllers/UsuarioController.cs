@@ -29,13 +29,19 @@ namespace TarefasBackEnd.Controllers
         [Route("login")]
         public IActionResult Login([FromBody]UsuarioLogin model, [FromServices] IUsuarioRepository repository)
         {
+            if(model == null)
+                return BadRequest("Dados de login não fornecidos");
+
             if(!ModelState.IsValid)
-                return BadRequest();
+                return BadRequest(ModelState);
+
+            if(string.IsNullOrEmpty(model.Email) || string.IsNullOrEmpty(model.Senha))
+                return BadRequest("Email e senha são obrigatórios");
 
             Usuario usuario = repository.Read(model.Email, model.Senha);
         
             if(usuario == null)
-                return Unauthorized();
+                return Unauthorized("Email ou senha inválidos");
 
             usuario.Senha = "";
             

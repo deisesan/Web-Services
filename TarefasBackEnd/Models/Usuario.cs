@@ -6,10 +6,10 @@ namespace TarefasBackEnd.Models
     {
         public Guid Id { get; set; }
         [Required]
-        public string Nome { get; set; }
+        public string Nome { get; set; } = string.Empty;
         [Required]
-        public string Email { get; set; }
+        public string Email { get; set; } = string.Empty;
         [Required]
-        public string Senha { get; set; }
+        public string Senha { get; set; } = string.Empty;
     }
 }

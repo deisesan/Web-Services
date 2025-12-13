@@ -8,7 +8,7 @@ namespace TarefasBackEnd.Models
         public Guid UsuarioId { get; set; }
         
         [Required]
-        public string Nome { get; set; }
+        public string Nome { get; set; } = string.Empty;
         public bool Concluida { get; set; }
     }
 }
